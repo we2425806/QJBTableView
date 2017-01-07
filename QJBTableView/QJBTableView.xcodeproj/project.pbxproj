@@ -14,6 +14,7 @@
 		5232E22C1E210C6F00AFFF02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5232E22A1E210C6F00AFFF02 /* LaunchScreen.storyboard */; };
 		5232E2371E210C6F00AFFF02 /* QJBTableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5232E2361E210C6F00AFFF02 /* QJBTableViewTests.swift */; };
 		5232E2421E210C6F00AFFF02 /* QJBTableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5232E2411E210C6F00AFFF02 /* QJBTableViewUITests.swift */; };
+		5232E2521E21223E00AFFF02 /* QJBTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5232E2511E21223E00AFFF02 /* QJBTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5232E23D1E210C6F00AFFF02 /* QJBTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QJBTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5232E2411E210C6F00AFFF02 /* QJBTableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QJBTableViewUITests.swift; sourceTree = "<group>"; };
 		5232E2431E210C6F00AFFF02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5232E2511E21223E00AFFF02 /* QJBTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QJBTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				5232E2211E210C6F00AFFF02 /* AppDelegate.swift */,
 				5232E2231E210C6F00AFFF02 /* ViewController.swift */,
+				5232E2511E21223E00AFFF02 /* QJBTableViewCell.swift */,
 				5232E2251E210C6F00AFFF02 /* Main.storyboard */,
 				5232E2281E210C6F00AFFF02 /* Assets.xcassets */,
 				5232E22A1E210C6F00AFFF02 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5232E2521E21223E00AFFF02 /* QJBTableViewCell.swift in Sources */,
 				5232E2241E210C6F00AFFF02 /* ViewController.swift in Sources */,
 				5232E2221E210C6F00AFFF02 /* AppDelegate.swift in Sources */,
 			);
