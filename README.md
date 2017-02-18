@@ -1,2 +1,2 @@
 # QJBTableView
-工作中做的TableView的滑动效果
+有趣的TableView的滑动效果
